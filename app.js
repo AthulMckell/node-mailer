@@ -1,7 +1,13 @@
 var express = require('express');
 var app = express();
 
-const port = 5000;
+const PORT = 5000;
 
 app.get('/',(req,res)=>
-res.sendFile('index.html'));
+res.send('WELCOME, Athul RAJ fsd b1')
+);
+
+
+app.listen(PORT, () =>{
+    console.log(`Your server is running on port ${PORT}`);
+});
