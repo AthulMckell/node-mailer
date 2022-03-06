@@ -13,7 +13,7 @@ res.send('WELCOME, Athul RAJ fsd b1')
 );
 
 app.get('/home',(req,res)=>
-res.sendFile(__dirname + "/views/index.html"));
+res.sendFile(__dirname + "/index.html"));
 
 app.post("/home", (req, res) => {
     res.send("Thank you for subscribing")});
